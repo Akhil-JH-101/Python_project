@@ -118,7 +118,7 @@ class CalendarGrid(wx.Panel):
         self.header = wx.BoxSizer(wx.HORIZONTAL)
 
         # IMPORTANT: FlexGridSizer (not GridSizer)
-        self.grid = wx.FlexGridSizer(rows=0, cols=8, vgap=4, hgap=4)
+        self.grid = wx.FlexGridSizer(rows=0, cols=7, vgap=4, hgap=4)
 
         self.build_header()
         self.build_grid()
